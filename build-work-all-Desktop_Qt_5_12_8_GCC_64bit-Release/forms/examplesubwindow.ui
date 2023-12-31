@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExampleSubWindow</class>
+ <widget class="QWidget" name="ExampleSubWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>973</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>581</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>In this application,you can do what you want</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>741</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You can even use SQLi technology to destroy my database</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>731</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>In the input interface, you need to first input the regular</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>701</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>expression of MySQL, and then click the Let's try button</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>120</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Such as:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>321</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SELECT * FROM patients;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>51</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>or:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>170</y>
+     <width>411</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SELECT * FROM measurements;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>581</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You can insert into tables by yourself:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>210</y>
+     <width>461</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INSERT INTO ...(...) VALUES ...;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>891</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Note that you need a semicolon(&quot;;&quot;) at the end of your input </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>420</y>
+     <width>901</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>But i don't care.Because i have dozens of Docker containers like this</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
